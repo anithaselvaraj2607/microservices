@@ -1,0 +1,15 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///${user.home}/.config-repo  # default local dir for demo (create later)
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
