@@ -1,0 +1,75 @@
+# ---------------------------
+# Maven Build Files
+# ---------------------------
+/target/
+/*/target/
+
+# Do not ignore source code in target/classes if using annotation processors
+!.mvn/wrapper/maven-wrapper.jar
+
+# ---------------------------
+# IntelliJ IDEA
+# ---------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# ---------------------------
+# Logs
+# ---------------------------
+*.log
+
+# ---------------------------
+# OS Specific
+# ---------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ---------------------------
+# Java
+# ---------------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# ---------------------------
+# Spring Boot
+# ---------------------------
+# Exclude application-local configs (optional)
+/**/application-local.yml
+/**/application-local.properties
+
+# ---------------------------
+# VS Code
+# ---------------------------
+.vscode/
+
+# ---------------------------
+# Docker
+# ---------------------------
+**/.dockerignore
+**/docker-compose.override.yml
+
+# ---------------------------
+# Node (in case Angular is added later)
+# ---------------------------
+node_modules/
+dist/
+build/
+
+# ---------------------------
+# Logs and Temp
+# ---------------------------
+/logs/
+/tmp/
+/out/
